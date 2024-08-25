@@ -1,9 +1,6 @@
 def solution(money):
-    # 아메리카노 한 잔의 가격
-    ame = 5500
-    # 최대 구매할 수 있는 잔 수
-    num_americanos = money // ame
-    # 남는 돈
-    remaining_money = money % ame
-    
-    return [num_americanos, remaining_money]
+    ame = 5500   # 아메리카노 한잔가격
+    count = money // ame     # 몇개 당 살것인지.
+    charge = money % ame    # 거스름돈
+    answer = [count, charge] # 리스트로 [ ] 감싸주기
+    return answer
