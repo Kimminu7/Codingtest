@@ -1,6 +1,6 @@
 def solution(str1, str2):
-    result = []
-    for s1, s2 in zip(str1, str2):
-        result.append(s1)
-        result.append(s2)
-    return ''.join(result)
+    answer = ''
+    
+    for i in range(len(str1)):
+        answer = answer + str1[i] + str2[i]
+    return answer
