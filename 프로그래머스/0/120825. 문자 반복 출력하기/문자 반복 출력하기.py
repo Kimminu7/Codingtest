@@ -1,6 +1,5 @@
 def solution(my_string, n):
-    r = []
+    new_string = ""
     for i in my_string:
-        for j in range(n):
-            r.append(i)
-    return ''.join(r)
+        new_string += i*n
+    return new_string
