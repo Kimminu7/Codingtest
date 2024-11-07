@@ -1,14 +1,11 @@
 def solution(num_list):
-    r = []
-    countX,countY = 0,0
+    count_odd = 0
+    count_even = 0
     
     for i in num_list:
-        if i % 2 != 0:
-            countX += 1
-        else:
-            countY += 1
-    r.append(countY)    
-    r.append(countX)
-    return r
-
+        if i%2 == 0:
+            count_even += 1
+        elif i%2 !=0:
+            count_odd += 1
     
+    return [count_even,count_odd]
