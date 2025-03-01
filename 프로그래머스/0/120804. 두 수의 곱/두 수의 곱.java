@@ -1,5 +1,5 @@
 class Solution {
-    public int solution(int n1, int n2) {
-        return n1 * n2;
+    public int solution(int num1, int num2) {
+        return num1 * num2;
     }
 }
