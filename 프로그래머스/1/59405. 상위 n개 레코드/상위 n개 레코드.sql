@@ -1,0 +1,4 @@
+SELECT NAME
+FROM ANIMAL_INS
+ORDER BY DATETIME ASC
+LIMIT 1; # limit은 조회된 결과를 제한하는 쿼리이다.
