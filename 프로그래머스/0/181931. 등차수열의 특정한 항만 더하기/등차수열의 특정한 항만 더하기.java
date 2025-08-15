@@ -14,7 +14,7 @@ class Solution {
         }
         
         for(int i=0; i<leng; i++) {
-            if(included[i] == true) {
+            if(included[i]) {
                 answer += arr[i];
             }
         }
